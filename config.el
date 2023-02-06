@@ -15,7 +15,7 @@
 (setq-default evil-escape-key-sequence "jj")
 (setq avy-all-windows t)
 (setq doom-theme 'doom-one)
-(setq display-line-numbers-mode "relative")
+(setq display-line-numbers t)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
