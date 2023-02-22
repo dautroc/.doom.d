@@ -17,6 +17,10 @@
 (setq avy-all-windows t)
 (setq doom-theme 'doom-one)
 (setq display-line-numbers t)
+(use-package evil-surround
+  :ensure t
+  :config
+  (global-evil-surround-mode 1))
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
