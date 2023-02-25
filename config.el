@@ -12,7 +12,6 @@
 ;; Custom setup
 (add-to-list 'default-frame-alist '(inhibit-double-buffering . t))
 (add-to-list 'initial-frame-alist '(fullscreen . maximized))
-(modify-syntax-entry ?_ "w")
 (setq-default evil-escape-key-sequence "jj")
 (setq avy-all-windows t)
 (setq doom-theme 'doom-one)
@@ -64,3 +63,4 @@
 (after! projectile
   (setq projectile-tags-file-name "ETAGS"))
 
+(modify-syntax-entry ?_ "w")
